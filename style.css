@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#wrapper {
+    border: 5px solid white;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    border: 5px solid red;
+    position: relative;
+    height: 20vh;
+    width: 20vw;
+}
+
+#top-left-image {
+    position: static;
+}
+
+#top-right-image {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#bottom-left-image {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+#bottom-right-image {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+#centre-image {
+    position: absolute;
+    left: 41vw;
+    top: 38vh;
+}
